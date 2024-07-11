@@ -3,6 +3,10 @@
 ##
 ## rm(list=ls())
 
+library(devtools)
+
+install_github("git@github.com:guenardg/mvpart.git")
+
 library(magrittr)
 library(stringr)
 ## library(mvpart) ## detach("package:mvpart",unload=TRUE)
