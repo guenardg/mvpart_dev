@@ -1,0 +1,23 @@
+Package: mvpartCLEAN
+Type: Package
+Version: 2.0-1
+Date: 2024-04-25
+Encoding: UTF-8
+Title: Multivariate Regression Trees and Multivariate Partitioning
+Author: rpart by Terry M Therneau and Beth Atkinson <atkinson@mayo.edu>,
+    R port of rpart by Brian Ripley <ripley@stats.ox.ac.uk>,
+    Some routines from vegan -- Jari Oksanen <jari.oksanen@oulu.fi>,
+    Extensions and adaptations of rpart to mvpart by Glenn De'ath
+    <g.death@aims.gov.au>, Major code rehaul by Guillaume Guénard
+    <guillaume.guenard@gmail.com> from 2024-04-13.
+Maintainer: Guillaume Guénard <guillaume.guenard@gmail.com>
+Description: Performs multivariate regression tree calculations and
+  multivariate partitioning.
+Depends: R (>= 4.0.0)
+Suggests: 
+Imports: 
+License: GPL-2 | GPL-3
+LazyLoad: yes
+NeedsCompilation: yes
+Repository: CRAN
+RoxygenNote: 7.2.3

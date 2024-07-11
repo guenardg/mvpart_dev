@@ -1,0 +1,69 @@
+#'
+#' Automobile Data from `Consumer Reports' 1990
+#' 
+#' The \code{car.test.frame} data frame has 60 rows and eight columns, giving
+#' data on makes of cars taken from the April, 1990 issue of magazine Consumer
+#' Reports.
+#' 
+#' @docType data
+#' 
+#' @name car.test.frame
+#' 
+#' @usage data(car.test.frame)
+#' 
+#' @format This data frame contains the following columns:
+#' \describe{
+#'   \item{\code{Price}}{
+#'     a numeric vector giving the list price in US dollars of a standard model
+#'   }
+#'   \item{\code{Country}}{
+#'     of origin, a factor with levels
+#'     \code{France} 
+#'     \code{Germany} 
+#'     \code{Japan} 
+#'     \code{Japan/USA} 
+#'     \code{Korea} 
+#'     \code{Mexico} 
+#'     \code{Sweden} 
+#'     \code{USA} 
+#'   }
+#'   \item{\code{Reliability}}{
+#'     a numeric vector coded \code{1} to \code{5}.
+#'   }
+#'   \item{\code{Mileage}}{
+#'     fuel consumption miles per US gallon, as tested. 
+#'   }
+#'   \item{\code{Type}}{
+#'     a factor with levels
+#'     \code{Compact} 
+#'     \code{Large} 
+#'     \code{Medium} 
+#'     \code{Small} 
+#'     \code{Sporty} 
+#'     \code{Van} 
+#'   }
+#'   \item{\code{Weight}}{
+#'     kerb weight in pounds.
+#'   }
+#'   \item{\code{Disp.}}{
+#'     the engine capacity (displacement) in litres.
+#'   }
+#'   \item{\code{HP}}{
+#'     the net horsepower of the vehicle.
+#'   }
+#' }
+#' 
+#' @source Consumer Reports, April, 1990, pp. 235--288 quoted in Chambers and
+#' Hastie (1992).
+#' 
+#' @references
+#' John M. Chambers and Trevor J. Hastie eds. (1992) Statistical Models in S,
+#' Wadsworth and Brooks/Cole, Pacific Grove, CA 1992, pp. 46--47.
+#' 
+#' @examples ## Load and print the data frame:
+#' data("car.test.frame")
+#' car.test.frame
+#' 
+#' @keywords datasets
+#' 
+NULL
